@@ -9,8 +9,8 @@ app.secret_key = 'your_secret_key'
 def get_db_connection():
     return mysql.connector.connect(
         host='localhost',
-        user='your_db_user',
-        password='your_db_password',
+        user='root',
+        password='krshn#jgnnth',
         database='car_rental_db'
     )
 
